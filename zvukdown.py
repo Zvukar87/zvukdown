@@ -282,7 +282,7 @@ if __name__ == '__main__':
         for i in sys.argv:
             # print(i)
             if "release" in i:
-                release_ids.append(int(i.strip("https://sber-zvuk.com/release/")))
+                release_ids.append(int(i.strip("https://sber-zvuk.com/release/9752799")))
             elif "track" in i:
                 track_ids.append(int(i.strip("https://sber-zvuk.com/track/")))
 
